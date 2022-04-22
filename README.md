@@ -15,5 +15,4 @@ $text = 'buenos días';
 $trans = new GoogleTranslate();
 $result = $trans->translate($source, $target, $text);
 
-// Good morning
 echo $result;
